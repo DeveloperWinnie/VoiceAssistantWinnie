@@ -9,29 +9,29 @@
 Pod::Spec.new do |s|
  
  
-   s.name         = "XFVoice"
-   s.version      = "0.0.2"
-   s.summary      = "科大讯飞语音识别"
+   s.name         = "VoiceAssistantWinnie"
+   s.version      = "0.0.1"
+   s.summary      = "科大讯飞语音"
  
    s.description  = <<-DESC
-                    XF 科大讯飞 语音识别
+                    VoiceAssistantWinnie 科大讯飞 语音识别
                     DESC
  
    s.homepage     = "http://www.baidu.com"
  
    s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
  
-   s.author             = { "xxdzyyh" => "xxdzyyh@163.com" }
+   s.author             = { "Winnie" => "winniewt@126.com" }
    
-   s.platform     = :ios, "7.0"
+   s.platform     = :ios, "9.0"
  
-   s.source       = { :git => "https://github.com/xxdzyyh/XFVoice.git", :tag => '0.0.2' }
+   s.source       = { :git => "https://github.com/DeveloperWinnie/VoiceAssistantWinnie.git", :tag => '0.0.1' }
  
    s.source_files = "Src/*.h", "Src/*.m"
  
-   s.vendored_frameworks = "**/iflyMSC.framework"
+   s.vendored_frameworks = "**/iflyMSC.framework", "**/iflyAIUI.framework"
  
-   s.frameworks = "AVFoundation", "SystemConfiguration", "Foundation", "CoreTelephony", "AddressBook"
+   s.frameworks = "AVFoundation", "SystemConfiguration", "Foundation", "CoreTelephony", "AddressBook", "CoreGraphics", "QuartzCore", "Contacts", "CoreLocation", "UIKit", "AudioToolbox", "CoreTelephony"
  
    s.library = "z"
 
