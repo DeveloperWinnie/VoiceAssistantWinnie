@@ -15,6 +15,21 @@
 		2DEC734D2188706800009CAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC734C2188706800009CAA /* main.m */; };
 		2DEC73572188706800009CAA /* VoiceAssistantWinnieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC73562188706800009CAA /* VoiceAssistantWinnieTests.m */; };
 		2DEC73622188706800009CAA /* VoiceAssistantWinnieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC73612188706800009CAA /* VoiceAssistantWinnieUITests.m */; };
+		2DEC7376218871B600009CAA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC7375218871B600009CAA /* libz.tbd */; };
+		2DEC7378218871C000009CAA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC7377218871C000009CAA /* AVFoundation.framework */; };
+		2DEC737A218871C700009CAA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC7379218871C700009CAA /* SystemConfiguration.framework */; };
+		2DEC737C218871D200009CAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC737B218871D200009CAA /* Foundation.framework */; };
+		2DEC737E218871DC00009CAA /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC737D218871DB00009CAA /* CoreTelephony.framework */; };
+		2DEC7380218871E500009CAA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC737F218871E500009CAA /* AudioToolbox.framework */; };
+		2DEC7382218871EE00009CAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC7381218871EE00009CAA /* UIKit.framework */; };
+		2DEC7384218871F500009CAA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC7383218871F500009CAA /* CoreLocation.framework */; };
+		2DEC73862188720000009CAA /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC73852188720000009CAA /* Contacts.framework */; };
+		2DEC73882188720900009CAA /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC73872188720900009CAA /* AddressBook.framework */; };
+		2DEC738A2188721400009CAA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC73892188721400009CAA /* QuartzCore.framework */; };
+		2DEC738C2188721C00009CAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC738B2188721C00009CAA /* CoreGraphics.framework */; };
+		2DEC738E2188722900009CAA /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC738D2188722900009CAA /* libc++.tbd */; };
+		2DEC73902188750300009CAA /* iflyAIUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC738F2188750300009CAA /* iflyAIUI.framework */; };
+		2DEC73922188751500009CAA /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEC73912188751500009CAA /* iflyMSC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +66,21 @@
 		2DEC735D2188706800009CAA /* VoiceAssistantWinnieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceAssistantWinnieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DEC73612188706800009CAA /* VoiceAssistantWinnieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceAssistantWinnieUITests.m; sourceTree = "<group>"; };
 		2DEC73632188706800009CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DEC7375218871B600009CAA /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		2DEC7377218871C000009CAA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2DEC7379218871C700009CAA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2DEC737B218871D200009CAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2DEC737D218871DB00009CAA /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		2DEC737F218871E500009CAA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2DEC7381218871EE00009CAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2DEC7383218871F500009CAA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2DEC73852188720000009CAA /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		2DEC73872188720900009CAA /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		2DEC73892188721400009CAA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2DEC738B2188721C00009CAA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2DEC738D2188722900009CAA /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		2DEC738F2188750300009CAA /* iflyAIUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyAIUI.framework; path = VoiceAssistantWinnie/iflyAIUI.framework; sourceTree = "<group>"; };
+		2DEC73912188751500009CAA /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyMSC.framework; path = VoiceAssistantWinnie/iflyMSC.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DEC73922188751500009CAA /* iflyMSC.framework in Frameworks */,
+				2DEC73902188750300009CAA /* iflyAIUI.framework in Frameworks */,
+				2DEC738E2188722900009CAA /* libc++.tbd in Frameworks */,
+				2DEC738C2188721C00009CAA /* CoreGraphics.framework in Frameworks */,
+				2DEC738A2188721400009CAA /* QuartzCore.framework in Frameworks */,
+				2DEC73882188720900009CAA /* AddressBook.framework in Frameworks */,
+				2DEC73862188720000009CAA /* Contacts.framework in Frameworks */,
+				2DEC7384218871F500009CAA /* CoreLocation.framework in Frameworks */,
+				2DEC7382218871EE00009CAA /* UIKit.framework in Frameworks */,
+				2DEC7380218871E500009CAA /* AudioToolbox.framework in Frameworks */,
+				2DEC737E218871DC00009CAA /* CoreTelephony.framework in Frameworks */,
+				2DEC737C218871D200009CAA /* Foundation.framework in Frameworks */,
+				2DEC737A218871C700009CAA /* SystemConfiguration.framework in Frameworks */,
+				2DEC7378218871C000009CAA /* AVFoundation.framework in Frameworks */,
+				2DEC7376218871B600009CAA /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +130,7 @@
 				2DEC73552188706800009CAA /* VoiceAssistantWinnieTests */,
 				2DEC73602188706800009CAA /* VoiceAssistantWinnieUITests */,
 				2DEC733B2188706700009CAA /* Products */,
+				2DEC7374218871B600009CAA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +176,28 @@
 				2DEC73632188706800009CAA /* Info.plist */,
 			);
 			path = VoiceAssistantWinnieUITests;
+			sourceTree = "<group>";
+		};
+		2DEC7374218871B600009CAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DEC73912188751500009CAA /* iflyMSC.framework */,
+				2DEC738F2188750300009CAA /* iflyAIUI.framework */,
+				2DEC738D2188722900009CAA /* libc++.tbd */,
+				2DEC738B2188721C00009CAA /* CoreGraphics.framework */,
+				2DEC73892188721400009CAA /* QuartzCore.framework */,
+				2DEC73872188720900009CAA /* AddressBook.framework */,
+				2DEC73852188720000009CAA /* Contacts.framework */,
+				2DEC7383218871F500009CAA /* CoreLocation.framework */,
+				2DEC7381218871EE00009CAA /* UIKit.framework */,
+				2DEC737F218871E500009CAA /* AudioToolbox.framework */,
+				2DEC737D218871DB00009CAA /* CoreTelephony.framework */,
+				2DEC737B218871D200009CAA /* Foundation.framework */,
+				2DEC7379218871C700009CAA /* SystemConfiguration.framework */,
+				2DEC7377218871C000009CAA /* AVFoundation.framework */,
+				2DEC7375218871B600009CAA /* libz.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -436,6 +504,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VoiceAssistantWinnie/Third",
+					"$(PROJECT_DIR)/VoiceAssistantWinnie",
+				);
 				INFOPLIST_FILE = VoiceAssistantWinnie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +525,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VoiceAssistantWinnie/Third",
+					"$(PROJECT_DIR)/VoiceAssistantWinnie",
+				);
 				INFOPLIST_FILE = VoiceAssistantWinnie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
